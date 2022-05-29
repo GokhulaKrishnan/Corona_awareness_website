@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Yellowtail&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif; 
+    max-width: 100%; 
+    font-weight: 200;
+    background-color: hsl(0, 100%, 98%);
+    font-size: 20px; 
+}
+img{
+    position: relative;
+    width:100%;
+    height: 400px;
+}
+span{
+    font-weight: bold;
+}
+.header{
+    height:400px;
+    max-width: 100%;
+}
+.title h1{
+    position: absolute;
+    top:180px;
+    left: 465px;
+    padding-left: 5px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+.title h4{
+    position: absolute;
+    top: 270px;
+    left: 585px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: white;
+}
+.navbar {
+    padding-left: 60px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid hsl(0, 100%, 75%);
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(0, 100%, 97%);
+    z-index: 1;
+    text-align: center;
+}
+#n1,#n2{
+    border-left: 1px solid;
+    padding-left: 15px;
+}
+#n1{
+    margin-right: -23px;
+}
+#n2{
+    margin-right: -15px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 3px;
+    border-right: 1px solid;
+}
+#n3{
+    border-right: 1px solid;
+    padding-right: 13px;
+    margin-left: -13px;
+}
+.navbar h3{
+    padding: 20px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    padding-left: 420px;
+}
+.navbar li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: normal;
+    font-size:20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:link,a:visited{
+    color: black;
+}
+.navbar a:hover,a:active{
+    font-weight: 600;
+}
+.txt-type > .txt{
+    border-right: 0.2rem solid white;
+}
+.content1{
+    padding: 20px;
+}
+.content1 h2{
+    text-align: center;
+    border: 1px solid;
+    width: max-content;
+    margin-left: 587px;
+    letter-spacing: 3px;
+    background-color: rgba(209, 116, 110,0.5);
+    border-radius: 7px;
+    border-style: none;
+}
+#active{
+    color:hsl(330, 50%, 40%);
+}
+.content1 h3{
+    color: #3e4444;
+    padding-top: 50px;
+}
+#Question{
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    width: fit-content;
+}
+.content1 p{
+    padding-top: 20px;
+    line-height: 30px;
+    margin: 0 20px;
+}
+.content2{
+    margin: 0 20px;
+    border: 1px solid;
+    background-color: #667292;
+    color: white;
+    line-height: 30px;
+}
+.content2 h2{
+    width: fit-content;
+    border-bottom: 2px solid white;
+    margin-left: 587px;
+    margin-top: 25px;
+    padding-bottom: 7px;
+    color: black;
+}
+.content2 span{
+    color: whitesmoke;
+    font-weight: 900;
+}
+.content2 h4{
+    text-align: justify;
+    padding: 20px;
+}
+.content2 ul{
+    padding-left: 50px;
+    text-align: justify;
+    margin: 0 35px 0 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.content2 li{
+    list-style-position: outside;
+    padding: 20px;
+}
+#first1{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.content2 ul li::before {
+    content: "\2022";
+    color: black;
+    font-weight: 900;
+    display: inline-block; 
+    width: 16px;
+    margin-left: -16px;
+}
+.content3{
+    text-align: center;
+    padding: 20px;
+}
+.content3 h4{
+    padding-top: 15px;
+    line-height: 30px;
+    padding: 25px;
+}
+.flexbox1{
+    display: flex;
+    line-height: 30px;
+}
+.contentleft1{
+    flex: 50%;
+    margin: 20px;
+}
+.contentleft1 h5{
+    font-size: 17px;
+}
+.contentleft1 ul{
+    margin-left: 30px;
+}
+.contentleft1 li{
+    padding: 20px;
+}
+.contentright1{
+    flex: 50%;
+    height: auto;
+    margin: 20px;
+}
+.contentright1 img{
+    border-radius: 8px;
+}
+.content4{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+.content4 h3{
+    word-spacing: 5px;
+    font-family: 'Yellowtail', cursive;
+}
+#what{
+    color: red;
+}
+.content4 p{
+    padding-left: 600px;
+}
+.flexbox2{
+    display: flex;
+    padding: 25px;
+    line-height: 35px;
+    background-color: 	#FF6347;
+    margin: 0 15px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.contentleft2{
+    flex: 40%;
+    letter-spacing: 3px;
+}
+.contentright2{
+    flex: 60%;
+}
+.content5{
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #FF6347;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+#note{
+    color: black;
+}
+.footer{
+    margin-top: 30px;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 132, 107);
+    border-top: 2px solid rgb(255, 29, 36);
+}
+.footer p{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 10;  
+}
+.footer h3{
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 55px;
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover,a:active{
+    font-weight: 600;
+}

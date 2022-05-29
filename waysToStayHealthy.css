@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif; 
+    max-width: 100%; 
+    font-weight: 200;
+    background-color: hsl(0, 100%, 98%); 
+    font-size: 20px;
+}
+.headingimg{
+    position: relative;
+    width:100%;
+    height: 400px;   
+}
+span{
+    font-weight: bold;
+}
+.header{
+    height:400px;
+    max-width: 100%;
+    
+}
+.title h1{
+    position: absolute;
+    top:180px;
+    left: 465px;
+    padding-left: 5px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+.title h4{
+    position: absolute;
+    top: 270px;
+    left: 585px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: white;
+}
+.navbar {
+    padding-left: 60px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid hsl(0, 100%, 75%);
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(0, 100%, 97%);
+    z-index: 1;
+    text-align: center;
+}
+#n1,#n2{
+    border-left: 1px solid;
+    padding-left: 15px;
+    
+}
+#n1{
+    margin-right: -23px;
+}
+#n2{
+    margin-right: -15px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 3px;
+    border-right: 1px solid;
+}
+#n3{
+    border-right: 1px solid;
+    padding-right: 13px;
+    margin-left: -13px;
+}
+.navbar h3{
+    padding: 20px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    padding-left: 420px;
+    
+}
+.navbar li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: normal;
+    font-size:20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+       
+}
+.navbar a:link,a:visited{
+    color: black;
+}
+.navbar a:hover,a:active{
+    font-weight: 600;
+}
+.txt-type > .txt{
+    border-right: 0.2rem solid white;
+}
+.bodycontainer p{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.content1{
+    padding-top: 20px;
+}
+.content1 h2{
+    letter-spacing: 3px;
+    border: 1px solid;
+    width: fit-content;
+    margin-left: 670px;
+    background-color: rgba(209, 116, 110,0.5);
+    border-radius: 7px;
+    border-style: none;
+}
+.content1 p{
+    padding-top: 0px;
+    text-align: justify;
+    line-height: 30px;
+}
+.flexbox1{
+    padding-top: 30px;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+.main{
+    position: relative;
+}
+.flexbox1 img{
+    height: 480px;
+    width: 450px;
+    padding: 40px;     
+}
+.flexbox1 #first{
+    position: absolute;
+    top: 200px;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: rgb(255, 135, 153,0.7);
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    padding: 7px;
+}
+.flexbox1 #second{
+    position: absolute;
+    top: 330px;
+    font-size: large;
+    font-weight: 620;
+}
+.flexbox1 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: rgb(255, 137, 63,0.9);
+    border-radius: 5px;
+}
+.flexbox1 a:hover{
+    color: rgb(255, 137, 63);
+    background-color: rgb(5, 5, 5);
+    border-top: 2px solid rgb(255, 137, 63);
+    transition: 0.8s;
+}
+
+.flexbox2{
+    display: flex;
+    height: auto;
+    margin: 0 50px;
+}
+.flexbox2 img{
+    height: 450px;
+    width: 450px;
+    padding: 40px; 
+}
+.main2{
+    padding-left: 35px;
+}
+.main1,.main2{
+    position: relative;
+}
+.flexbox2 #first{
+    position: absolute;
+    top: 200px;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: rgb(255, 135, 153,0.7);
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    padding: 7px;
+}
+.flexbox2 #first1{
+    position: absolute;
+    top: 200px;
+    left: -15px;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: rgb(255, 135, 153,0.7);
+    border-top-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    padding: 7px;
+}
+#imgs{
+    padding-right: 58px;
+    padding-left: 22px;
+}
+.flexbox2 #second{
+    position: absolute;
+    top: 330px;
+    font-size: large;
+    font-weight: 620;
+}
+.flexbox2 #second1{
+    position: absolute;
+    top: 330px;
+    left: -15px;
+    font-size: large;
+    font-weight: 620;
+}
+.flexbox2 a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    background-color: rgb(255, 137, 63,0.9);
+    border-radius: 5px;
+}
+.flexbox2 a:hover{
+    color: rgb(255, 137, 63);
+    background-color: rgb(5, 5, 5);
+    border-top: 2px solid rgb(255, 137, 63);
+    transition: 0.8s;
+}
+.footer{
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 132, 107);
+    border-top: 2px solid rgb(255, 29, 36);
+}
+.footer p{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 10;  
+}
+.footer h3{
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 55px;
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover,a:active{
+    font-weight: 600;
+}

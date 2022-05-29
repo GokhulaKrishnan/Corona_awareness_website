@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif; 
+    max-width: 100%; 
+    font-weight: 200;
+    background-color: hsl(0, 100%, 98%); 
+    font-size: 20px;
+}
+.headingimg{
+    position: relative;
+    width:100%;
+    height: 400px;   
+}
+span{
+    font-weight: bold;
+}
+.header{
+    height:400px;
+    max-width: 100%;
+    
+}
+.title h1{
+    position: absolute;
+    top:180px;
+    left: 465px;
+    padding-left: 5px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+.title h4{
+    position: absolute;
+    top: 270px;
+    left: 585px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid hsl(0, 100%, 75%);
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(0, 100%, 97%);
+    z-index: 1;
+    text-align: center;
+}
+#n1,#n2{
+    border-left: 1px solid;
+    padding-left: 15px;
+    
+}
+#n1{
+    margin-right: -23px;
+}
+#n2{
+    margin-right: -15px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 3px;
+    border-right: 1px solid;
+}
+#n3{
+    border-right: 1px solid;
+    padding-right: 13px;
+    margin-left: -13px;
+   
+
+}
+.navbar h3{
+    padding: 20px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    padding-left: 420px;
+    
+}
+.navbar li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: normal;
+    font-size:20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:link,a:visited{
+    color: black;
+}
+.navbar a:hover,a:active{
+    font-weight: 600;
+}
+.txt-type > .txt{
+    border-right: 0.2rem solid white;
+}
+.content1{
+    padding-top:50px;
+}
+.content1 h2{
+    text-align: center ;
+}
+.content1 p{
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 50px;
+    padding-bottom: 80px;
+    line-height: 35px;
+}
+.flexbox1{
+    display: flex;
+    margin: 0px 25px;
+    padding-bottom: 30px;
+}
+.contentleft1{
+    flex: 60%;
+    height: 650px;
+    background-color: rgb(182, 101, 123);
+    border-top-left-radius: 57px;
+    border-bottom-left-radius: 57px;
+}
+.contentleft1 p{
+    text-align: left;
+    line-height: 50px;
+    padding: 80px;
+    color: white;
+}
+.contentleft1 h2{
+    text-align: center;
+    padding-top: 45px;
+}
+#covid{
+    color: red;
+}
+.contentright1{
+    flex: 40%;
+    height: 600px;
+}
+.contentright1 img{
+    height: 650px;
+    width: 100%;
+    border-top-right-radius: 57px;
+    border-bottom-right-radius: 57px;
+}
+.content2{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+.flexbox{
+    display: flex;
+    height: auto;
+    margin: 5px 35px;
+}
+.contentleft{
+    flex: 50%;
+    padding: 35px;
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+}
+.contentright{
+    flex: 50%;
+    padding: 40px;
+    background-color: hsl(0, 0%, 70%);
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+.contentright p{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+.contentright h3{
+    padding-bottom: 9px;
+    text-align: center;
+}
+.flexbox2{
+    display: flex;
+    height: auto;
+    margin: 0px 35px;
+}
+.contentleft2{
+    flex: 50%;
+    padding: 35px;
+    background-color: hsl(0, 0%, 70%);
+    color: black;
+}
+.contentright2{
+    flex: 50%;
+    padding: 40px;
+    background-color: hsl(0, 0%, 25%);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.contentright2 p{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+.contentright2 h3{
+    padding-bottom: 9px;
+    text-align: center;
+}
+.footer{
+    margin-top: 50px;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 132, 107);
+    border-top: 2px solid rgb(255, 29, 36);
+}
+.footer p{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 10;  
+}
+.footer h3{
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 55px;
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover,a:active{
+    font-weight: 600;
+}

@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif; 
+    max-width: 100%; 
+    font-weight: 200;
+    background-color: hsl(0, 100%, 98%);
+    font-size: 20px; 
+}
+img{
+    position: relative;
+    width:100%;
+    height: 400px;
+}
+span{
+    font-weight: bold;
+}
+.header{
+    height:400px;
+    max-width: 100%;
+}
+.title h1{
+    position: absolute;
+    top:180px;
+    left: 465px;
+    padding-left: 5px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+.title h4{
+    position: absolute;
+    top: 270px;
+    left: 585px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: white;
+}
+.navbar {
+    padding-left: 60px;
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid hsl(0, 100%, 75%);
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(0, 100%, 97%);
+    z-index: 1;
+    text-align: center;
+}
+#n1,#n2{
+    border-left: 1px solid;
+    padding-left: 15px;
+}
+#n1{
+    margin-right: -23px;
+}
+#n2{
+    margin-right: -15px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 3px;
+    border-right: 1px solid;
+}
+#n3{
+    border-right: 1px solid;
+    padding-right: 13px;
+    margin-left: -13px;
+}
+.navbar h3{
+    padding: 20px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    padding-left: 420px;
+}
+.navbar li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: normal;
+    font-size:20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:link,a:visited{
+    color: black;
+}
+.navbar a:hover,a:active{
+    font-weight: 600;
+}
+.txt-type > .txt{
+    border-right: 0.2rem solid white;
+}
+.content1{
+    padding: 20px;
+}
+.content1 h2{
+    text-align: center;
+    border: 1px solid;
+    width: max-content;
+    margin-left: 640px;
+    letter-spacing: 3px;
+    background-color: rgba(209, 116, 110,0.5);
+    border-radius: 7px;
+    border-style: none;
+}
+#active{
+    color:hsl(330, 50%, 40%);
+}
+.content1 h3{
+    padding-top: 50px;
+    color: #3e4444;
+}
+#Question{
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    width: fit-content;
+}
+.content1 p{
+    padding-top: 20px;
+    line-height: 30px;
+    margin: 0 20px;
+}
+.content2{
+    margin: 10px; 
+    padding: 30px 20px;
+    border: 3px solid hsl(330, 50%, 40%);
+    background-color: hsl(330, 50%, 40%);
+    border-bottom: 5px solid rgb(204, 49, 67);
+    color: white;
+    border-radius: 10px;
+}
+.content2 p{
+    padding-top: 12px;
+    line-height: 30px;
+}
+.content2 h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.content3{
+    text-align: left;
+    padding: 20px;
+    margin: 25px 10px 0 10px;
+    background-color: rgba(3,89,70,1);
+    color: white;
+}
+.content3 h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content3 h3{
+    font-size: 20px;
+    padding-bottom: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content3 ul{
+    padding-left: 55px;
+}
+.content3 li{
+    padding: 25px;
+}
+.flexbox1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-top: 6px solid hsl(120, 100%, 35%) ;
+    border-bottom: 5px solid black ;
+}
+.flexbox1 img{
+    height: 310px;
+    width: 330px;
+    margin: 0 200px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border-top: 3px solid white;
+}
+.flexbox2{
+    display: flex;
+    background-color: hsl(0, 0%, 35%);
+    color: white;
+    margin: 0 10px; 
+}
+.flexbox2 h3{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+#homeworkout,#zumba{
+    width: fit-content;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+.contentleft2{
+    flex: 50%;
+    margin: 25px;
+    padding: 10px,0,10px,10px;
+    line-height: 35px;
+    border-bottom: 1px solid black;
+    text-align: justify;
+}
+.contentleft2 p{
+    padding-top: 25px;
+}
+.contentright2 p{
+    padding-top: 25px;
+}
+.contentright2{
+    flex: 50%;
+    margin: 18px;
+    margin-bottom: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    line-height: 35px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+.flexbox3{
+    display: flex;
+    background-color: hsl(0, 0%, 35%);
+    color: white;
+    margin: 0 10px; 
+    border-bottom: 5px solid black;
+}
+.flexbox3 h3{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+#yoga,#housework{
+    width: fit-content;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+.contentleft3{
+    flex: 50%;
+    margin: 25px;
+    padding: 10px;
+    padding-bottom: 30px;
+    line-height: 38px;
+    border-bottom: 1px solid black;
+    text-align: justify;
+}
+.contentleft3 p{
+    padding-top: 25px;
+}
+.contentright3{
+    flex: 50%;
+    margin: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    height: auto;
+}
+.contentright3 ul{
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+.contentright3 li{
+    padding: 15px;
+}
+#hm1,#hm2,#hm3,#hm4{
+    color: black;
+}
+.contentright3 ul li::before {
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 16px;
+    margin-left: -16px;
+}
+.footer{
+    margin-top: 30px;
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 132, 107);
+    border-top: 2px solid rgb(255, 29, 36);
+}
+.footer p{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 10;  
+}
+.footer h3{
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 55px;
+}
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover,a:active{
+    font-weight: 600;
+}

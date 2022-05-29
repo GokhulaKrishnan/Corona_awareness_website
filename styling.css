@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', sans-serif; 
+    max-width: 100%; 
+    font-weight: 200;
+    background-color: hsl(0, 100%, 98%); 
+}
+img{
+    position: relative;
+    width:100%;
+    height: 400px;
+    
+}
+.header{
+    height:400px;
+    max-width: 100%;
+    
+}
+.title h1{
+    position: absolute;
+    top:180px;
+    left: 465px;
+    padding-left: 5px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size: 70px;
+    color: black;
+}
+.title h4{
+    position: absolute;
+    top: 270px;
+    left: 585px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    color: white;
+}
+/* Cursor */
+.txt-type > .txt{
+    border-right: 0.2rem solid white;
+}
+.navbar {
+    display: flex;
+    justify-content: left;
+    border-bottom: 3px solid hsl(0, 100%, 75%);
+    position: sticky;
+    top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(0, 100%, 97%);
+    z-index: 1;
+    text-align: center;
+}
+#n1,#n2{
+    border-left: 1px solid;
+    padding-left: 15px;
+    
+}
+#n1{
+    margin-right: -23px;
+}
+#n2{
+    margin-right: -15px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 3px;
+    border-right: 1px solid;
+}
+#n3{
+    border-right: 1px solid;
+    padding-right: 13px;
+    margin-left: -13px;
+   
+
+}
+.navbar h3{
+    padding: 20px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.navbar ul{
+    padding-top: 7px;
+    display: flex;
+    padding-left: 420px;
+    
+}
+.navbar li{
+    padding: 20px;
+    list-style-type: none;
+    font-weight: normal;
+    font-size:20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    
+       
+}
+.navbar a:link,a:visited{
+    color: black;
+}
+.navbar a:hover,a:active{
+    font-weight: 600;
+}
+
+.bodyContainer{
+    text-align: center;
+}
+.heading{
+    display: flex;
+}
+.heading p{
+    text-decoration: line-through;
+}
+.bodyContainer p{
+    line-height: 30px;
+    font-size: x-large;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align:justify ;    
+}
+.content1{
+    padding-top: 30px;
+}
+.content1 p{
+    padding-top: 17px;
+}
+.content2{
+    padding-top: 30px;
+}
+.content2 p{
+    padding-top: 17px;
+    padding-bottom: 50px;
+}
+.content3{
+    padding-top: 35px;
+}
+.content3 p{
+    padding-top: 17px;
+}
+
+/* for columns */
+.flexcontainer{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+    background-color: hsl(0, 100%, 99%);
+    
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    height: 670px; 
+    padding: 10px;
+    background-color: #926AA6;  
+    color: whitesmoke; 
+}
+.leftside p{
+    line-height: 70px;
+    text-align: left;
+
+    
+}
+.leftside h2{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 40px;
+    padding-top: 35px;
+}
+.rightside{
+    display: flex;
+    flex: 50%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 85%);
+    border-top: 5px solid black;
+}
+.rightside div{
+    display:flex;
+    max-width: 230px;
+    margin: 20px;
+    
+}
+.rightside img{
+    height: 230px;
+    position: static;
+    
+}
+.content3 ul,h3{
+    text-align: left;
+    margin-left: 60px;
+}
+.content3 ul{
+    font-weight: 200;
+    font-size: x-large;
+    
+}
+.content3 h3{
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+.content3 h2{
+    position: static;
+}
+.content3 li{
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 5px;
+}
+.content3 li::before{
+    content: "\00BB";
+}
+/* for highlightings the headings */
+.ribbon-highlight{
+    position:relative;
+    margin:0.1em;
+    z-index: -1;
+  }
+.ribbon-highlight:before{
+    content:"";
+    z-index:-1;
+    left:-0.5em;
+    top:0.1em;
+    border-width:0.5em;
+    border-style:solid;
+    border-color:hsl(0, 100%, 80%);
+    position:absolute;
+    width:100%;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    z-index: -1;
+  }
+
+/* for the second flex boxes */
+.flexcontainer2{
+    display: flex;
+    border-collapse: collapse;
+    padding-top: 29px;
+}
+.leftside2{
+    display: flex;
+    flex: 65%;
+    height: 700px;
+    border: 1px solid;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: 60px;
+    background-color: rgba(3,89,70,1);
+    color: white;
+    
+}
+.leftside2 h3{
+    padding-top: 25px;
+}
+.rightside2{
+    display: flex;
+    flex: 35%;
+    height: auto;
+    margin-right: 60px;
+}
+.rightside2 h3{
+    font-size: 100px;
+    padding-top: 40px;
+    padding-left: 50px;
+    line-height: 155px;
+    font-family: 'Pacifico', cursive;
+}
+.rightside2 h2{
+    font-size: 100px;
+    padding-top: 80px;
+    padding-right: 40px;
+    font-family: 'Pacifico', cursive;
+}
+.content4{
+    padding-top: 140px;
+    padding-bottom: 90px;
+    
+}
+.content4 h2{
+    font-size: 60px;
+}
+.content4 p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.content4 a{
+    font-size: 30px;
+}
+.content4 a:after{
+    position: absolute; /* Prevent underline of arrow */
+    padding-left:3px;/* Add a little space between text and arrow */
+    content: "\25BA";
+    z-index: -1;
+}
+.content4 a:hover{
+    color: rgb(0, 153, 255);
+    transition: 0.9s;
+}
+.flexcontainer3{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.leftside3{
+    flex: 50%;
+    height: 800px;
+}
+.leftside3 img{
+    padding-top: 120px;
+    width: 550px;
+    height: 680px;
+    padding-left: 100px;
+}
+.rightside3{
+    flex: 50%;
+}
+.rightside3 h2{
+    font-size: 50px;
+    padding-top: 140px;
+    text-align: left;
+    padding-left: 55px;
+    
+}
+.rightside3 p{
+    text-align: left;
+    width: auto;
+    padding-right: 200px;
+    padding-top: 20px;
+    max-width: auto;
+    padding-bottom: 10px;
+}
+.rightside3 a{
+    text-align: left;
+    margin-right: 292px;
+    font-size: 25px;
+    margin-top: 15px;  
+}
+.rightside3 a:hover{
+    color: rgb(0, 153, 255);
+    transition: 0.9s;
+}
+.rightside3 a:after{
+    position: absolute; /* Prevent underline of arrow */
+    padding-left:3px;/* Add a little space between text and arrow */
+    content: "\25BA";
+    z-index: 0;
+}
+/* for flex container 4 */
+.flexcontainer4{
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+.leftside4{
+    flex: 50%;
+    height: 800px;
+    padding-top: 100px;
+    
+}
+.leftside4 h2{
+    padding-left: 270px;
+    font-size: 50px;
+}
+.leftside4 p{
+    padding-left: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.leftside4 a{
+    padding-left: 190px;
+    font-size: 25px;
+}
+.leftside4 a:hover{
+    color: rgb(0, 153, 255);
+    transition: 0.9s;
+}
+.leftside4 a:after{
+    position: absolute; /* Prevent underline of arrow */
+    padding-left:3px;/* Add a little space between text and arrow */
+    content: "\25BA";
+    z-index: 0;
+}
+.rightside4{
+    flex: 50%;
+    height: auto;
+    padding-right: 100px;
+}
+.rightside4 img{
+    width: 480px;
+    height: 630px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer{
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255, 132, 107);
+    border-top: 2px solid rgb(255, 29, 36);
+}
+.footer p{
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 10;
+    
+}
+.footer h3{
+    font-family: 'Caveat', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.footer a{
+    color:black;
+    text-decoration: none;
+}
+.footer a:hover,a:active{
+    font-weight: 600;
+}
+
+
+
+
